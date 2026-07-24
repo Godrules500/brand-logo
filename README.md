@@ -8,18 +8,20 @@ Static hosting for the brand logo via GitHub Pages.
 2. Under **Build and deployment** → **Source**, choose **GitHub Actions** (not “Deploy from a branch”).
 3. Push to `main` (or run the **Deploy GitHub Pages** workflow manually under the **Actions** tab). After a successful run, the site URL appears on the workflow summary and under **Settings** → **Pages**.
 
-### Direct image URL
+### Direct image URLs
 
-Once deployed, the logo is available at:
+Once deployed, the logos are available at:
 
 ```text
 https://<organization-or-user>.github.io/<repository-name>/logo.png
+https://<organization-or-user>.github.io/<repository-name>/cfa_transparent.png
 ```
 
 For this repository (when published under the current remote owner):
 
 ```text
 https://godrules500.github.io/brand-logo/logo.png
+https://godrules500.github.io/brand-logo/cfa_transparent.png
 ```
 
 ### Verify public access
